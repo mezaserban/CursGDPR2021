@@ -1,3 +1,5 @@
+Set-Cookie: sessionId=blablaSerban
+
 <html>
 <head>
 <script>
