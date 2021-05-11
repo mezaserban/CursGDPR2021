@@ -1,5 +1,3 @@
-Set-Cookie: sessionId=blablaSerban
-
 <html>
 <head>
 <script>
@@ -37,10 +35,23 @@ function checkCookie() {
      }
   }
 }
+
+function alertCookie() {
+  alert(document.cookie);
+}
+
 </script>
 </head>
 
-<body onload="checkCookie()"></body>
+<body onload="checkCookie()">
+
+Welcome to the Lab
+document.cookie = "session=testGDPR";
+document.cookie = "favorite_task=collectData";
+
+<button onclick="alertCookie()">Show cookies</button>
+
+</body>
 
 </html>
 
