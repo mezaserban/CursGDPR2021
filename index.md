@@ -1,8 +1,3 @@
-HTTP/2.0 200 OK
-Content-Type: text/html
-Set-Cookie: yummy_cookie=choco
-Set-Cookie: tasty_cookie=strawberry
-
 <!DOCTYPE html>
 <html>
 <head>
