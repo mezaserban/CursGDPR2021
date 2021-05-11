@@ -40,14 +40,16 @@ function alertCookie() {
   alert(document.cookie);
 }
 
+document.cookie = "session=testGDPR";
+document.cookie = "favorite_task=collectData";
+
 </script>
 </head>
 
 <body onload="checkCookie()">
 
 Welcome to the Lab
-document.cookie = "session=testGDPR";
-document.cookie = "favorite_task=collectData";
+
 
 <button onclick="alertCookie()">Show cookies</button>
 
